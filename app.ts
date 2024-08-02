@@ -107,5 +107,12 @@ for (let  AlphabetsOF of Name) {
     console.log("Name=",AlphabetsOF);   
 
 }
+function hello(callback:any){
+    callback()
 
+}
+let arrowfunc = (name: string)=>{
+    console.log("Hello");
+    
+}
 
